@@ -53,16 +53,16 @@ Simply install this package to be able to use DBAL inside FuelPHP.
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/indigophp/fuel-dbal/blob/develop/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://github.com/indigophp/fuelphp-dbal/blob/develop/CONTRIBUTING.md) for details.
 
 
 ## Credits
 
 - [Márk Sági-Kazár](https://github.com/sagikazarmark)
 - [aspendigital](https://github.com/aspendigital/fuel-doctrine2)
-- [All Contributors](https://github.com/indigophp/fuel-dbal/contributors)
+- [All Contributors](https://github.com/indigophp/fuelphp-dbal/contributors)
 
 
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/indigophp/fuel-dbal/blob/develop/LICENSE) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/indigophp/fuelphp-dbal/blob/develop/LICENSE) for more information.
