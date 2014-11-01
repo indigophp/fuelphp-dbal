@@ -37,9 +37,9 @@ class FuelServiceProvider extends ServiceProvider
 	protected $defaultConfig = [];
 
 	/**
-	 * {@inheritdoc}
+	 * Initializes DBAL
 	 */
-	public function provide()
+	private function initDbal()
 	{
 		$app = $this->getApp();
 
@@ -55,6 +55,14 @@ class FuelServiceProvider extends ServiceProvider
 		{
 			Type::addType($type, $class);
 		}
+	}
+
+	/**
+	 * {@inheritdoc}
+	 */
+	public function provide()
+	{
+		$this->initDbal();
 
 		$this->register('dbal', function($context, array $config = [])
 		{
