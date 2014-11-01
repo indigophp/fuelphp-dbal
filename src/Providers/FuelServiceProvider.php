@@ -60,11 +60,11 @@ class FuelServiceProvider extends ServiceProvider
 		{
 			if ($context->isMultiton())
 			{
-				$instance = $context->getName() ?: 'default';
+				$instance = $context->getName() ?: '__default__';
 			}
 			else
 			{
-				$instance = 'default';
+				$instance = '__default__';
 			}
 
 			$app = $this->getApp();

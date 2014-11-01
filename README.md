@@ -1,8 +1,8 @@
 # FuelPHP DBAL
 
-[![Packagist Version](https://img.shields.io/packagist/v/indigophp/fuelphp-dbal.svg?style=flat-square)](https://packagist.org/packages/indigophp/fuelphp-dbal)
+[![Latest Version](https://img.shields.io/github/release/indigophp/fuelphp-dbal.svg?style=flat-square)](https://github.com/indigophp/fuelphp-dbal/releases)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 [![Total Downloads](https://img.shields.io/packagist/dt/indigophp/fuelphp-dbal.svg?style=flat-square)](https://packagist.org/packages/indigophp/fuelphp-dbal)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
 **This package is a wrapper around [doctrine/dbal](https://github.com/doctrine/dbal) package.**
 
@@ -11,12 +11,8 @@
 
 Via Composer
 
-``` json
-{
-    "require": {
-        "indigophp/fuelphp-dbal": "@stable"
-    }
-}
+``` bash
+$ composer require indigophp/fuelphp-dbal
 ```
 
 

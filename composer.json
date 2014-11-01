@@ -1,23 +1,23 @@
 {
-    "name": "indigophp/fuelphp-dbal",
-    "description": "FuelPHP DBAL integration",
-    "license": "MIT",
-    "keywords": ["dbal", "fuelphp"],
-    "homepage": "https://indigophp.com",
-    "authors": [
-        {
-            "name": "Márk Sági-Kazár",
-            "email": "mark.sagikazar@gmail.com"
-        }
-    ],
-    "require": {
-        "doctrine/dbal": "~2.4"
-    },
-    "autoload": {
-        "psr-4": {
-            "Fuel\\DBAL\\": "src/"
-        }
-    },
-    "prefer-stable": true,
-    "minimum-stability": "dev"
+	"name": "indigophp/fuelphp-dbal",
+	"description": "FuelPHP DBAL integration",
+	"license": "MIT",
+	"keywords": ["dbal", "fuelphp"],
+	"homepage": "https://indigophp.com",
+	"authors": [
+		{
+			"name": "Márk Sági-Kazár",
+			"email": "mark.sagikazar@gmail.com"
+		}
+	],
+	"require": {
+		"doctrine/dbal": "~2.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"Fuel\\DBAL\\": "src/"
+		}
+	},
+	"prefer-stable": true,
+	"minimum-stability": "dev"
 }
