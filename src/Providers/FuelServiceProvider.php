@@ -12,7 +12,7 @@
 namespace Fuel\DBAL\Providers;
 
 use Fuel\Common\Arr;
-use Fuel\Dependency\ServiceProvider;
+use League\Container\ServiceProvider;
 use Doctrine\DBAL\Connection;
 use Doctrine\DBAL\DriverManager;
 use Doctrine\DBAL\Types\Type;
@@ -25,9 +25,9 @@ use Doctrine\DBAL\Types\Type;
 class FuelServiceProvider extends ServiceProvider
 {
 	/**
-	 * {@inheritdoc}
+	 * @var array
 	 */
-	public $provides = ['dbal'];
+	protected $provides = ['dbal'];
 
 	/**
 	 * Default configuration values
@@ -60,7 +60,7 @@ class FuelServiceProvider extends ServiceProvider
 	/**
 	 * {@inheritdoc}
 	 */
-	public function provide()
+	public function register()
 	{
 		$this->initDbal();
 
